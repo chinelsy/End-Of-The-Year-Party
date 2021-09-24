@@ -1,0 +1,32 @@
+﻿@model EndOfTheYearParty.Models.PartyGuestResponse
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/Styles.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Thanks</title>
+</head>
+<body class="text-center Thank" style="color:darkred; font:bolder">
+    <div  class="lucy text-center mx-auto">
+        
+            <h1 style="color:black">Thank you, @Model.FullName!</h1>
+            @if (Model.WillAttend == true)
+            {
+                @:It's great that you're coming. <br>We appreciate and acknowledge your presence!<br>
+            }
+            else
+            {
+                @:Sorry to hear that you can't make it, <br>but thanks for letting us know.<br>Looking forward to having you in our<br> next End of the year party.<br>
+            }
+       
+            Click <a style="color:blue" asp-action="GuestResponses">Here</a> to see who is coming.
+        
+    </div>
+    
+
+</body>
+</html>

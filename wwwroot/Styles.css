@@ -1,0 +1,56 @@
+﻿body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url("imgs/parry.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100%;
+    border:2px solid white;
+}
+.btn-action {
+    margin-top:8%;
+    font-size: 1.8em;
+    cursor: pointer;
+    
+}
+.Thank{
+    background-image:url("imgs/fine ballon.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid white;
+}
+.lucy {
+    margin-top: 14%;
+    font-size: 1.8em;
+}
+
+.field-validation-error {
+    color: red;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid green;
+    background-color: white;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color:darkred;
+}
+
+.validation-summary-valid {
+    display: none;
+}

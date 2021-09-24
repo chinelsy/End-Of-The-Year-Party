@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+     <link rel="stylesheet"href="/Styles.css"/>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Party!</title>
+</head>
+<body>
+
+   
+    <div class="bg">
+        <div class="text-center">
+            <h1 class="display-4 " style="color:white; font:bolder"><strong>Welcome</strong></h1>
+        </div>
+      
+        <div class="btn-action text-center mx-auto">
+            <h3 style="color:orangered"><strong> We're going to have an exciting End of the year party! <br>you defintly can't afford to miss it!!! <br>And YOU are invited!</strong></h3>
+            <a class="btn btn-secondary" style="font-size:large" asp-action="RsvpForm">RSVP Now</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

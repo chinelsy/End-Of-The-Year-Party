@@ -1,0 +1,37 @@
+﻿@model IEnumerable<EndOfTheYearParty.Models.PartyGuestResponse>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+    <head> 
+     <meta name="viewport" content="width=device-width" />
+     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+     <title>GuestResponses</title>
+    </head>
+    <body class="ebe">
+     <div class="text-center p-2">
+        <h2 style="color:darkorange">Here is the list of people attending Our End of the year party</h2>
+        <table class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr style="color:darkmagenta">
+                    <th>FullName</th>
+                    <th>EmailAddress</th>
+                    <th>PhoneNumber</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (EndOfTheYearParty.Models.PartyGuestResponse r in Model)
+                {
+                    <tr style="color:darkred">
+                        <td>@r.FullName</td>
+                        <td>@r.EmailAddress</td>
+                        <td>@r.PhoneNumber</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+      </div>
+    </body>
+</html>
+
