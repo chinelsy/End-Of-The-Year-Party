@@ -10,11 +10,12 @@ namespace EndOfTheYearParty.Controllers
         public IActionResult Index()
         {
             return View();
-        }
-        [HttpGet]  
+        } 
+
+       [HttpGet]  
         public ViewResult RsvpForm()
         {
-            return View();
+            return View(); 
         }
 
         
@@ -30,7 +31,7 @@ namespace EndOfTheYearParty.Controllers
             {
                 return View();
             }
-        }
+        } 
 
         
         public ViewResult GuestResponses() 

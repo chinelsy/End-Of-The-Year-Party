@@ -2,7 +2,7 @@
 
 namespace EndOfTheYearParty.Models
 {
-    public class PartyGuestResponse
+    public class PartyGuestResponse 
     {
        [Required(ErrorMessage = "Please enter your FullName")]
         public string FullName { get; set; }

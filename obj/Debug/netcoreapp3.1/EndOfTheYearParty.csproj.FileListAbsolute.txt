@@ -712,3 +712,4 @@ C:\Users\hp\source\repos\ASP.NET TASK\EndOfTheYearParty\obj\Debug\netcoreapp3.1\
 C:\Users\hp\source\repos\ASP.NET TASK\EndOfTheYearParty\obj\Debug\netcoreapp3.1\EndOfTheYearParty.pdb
 C:\Users\hp\source\repos\ASP.NET TASK\EndOfTheYearParty\obj\Debug\netcoreapp3.1\EndOfTheYearParty.genruntimeconfig.cache
 C:\Users\hp\source\repos\ASP.NET TASK\EndOfTheYearParty\obj\Debug\netcoreapp3.1\EndOfTheYearParty.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\ASP.NET TASK\EndOfTheYearParty\obj\Debug\netcoreapp3.1\EndOfTheYearParty.GeneratedMSBuildEditorConfig.editorconfig
